@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std ;
+
+
+class world2d {
+    private:
+    char  world [100][200];
+    public:
+    void initworld(){
+        for (int y;y<200;y++){
+            for(int x;x<100;x++){
+                cout<<*;
+
+
+            }
+        }
+
+
+    }
+
+
+
+
+};
+class target {
+
+};
+
+
+class agent2d{
+     public:              // Access specifier
+    void perceive() {  // calculates the distance between target and object
+      cout << "Hello World!";
+    }
+     public:              // Access specifier
+    void decide() {  // decides the movement type 
+      cout << "Hello World!";
+    }
+     public:              // Access specifier
+    void move() {  // object moves 
+      cout << "Hello World!";
+    }
+
+};
+
+int main (){
+    world2d world2d1l;
+    world2d1.initworld();
+
+
+
+}
